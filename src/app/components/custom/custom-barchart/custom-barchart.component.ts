@@ -81,7 +81,7 @@ export class CustomBarchartComponent
       .yAxisLabel(this.yAxisLabel)
       .brushOn(true)
       .renderLabel(true)
-      .ordinalColors(['#8f53f0']);
+      .ordinalColors(['#024079ff']);
 
     // Animación en transición
     this.chart.transitionDuration(800);

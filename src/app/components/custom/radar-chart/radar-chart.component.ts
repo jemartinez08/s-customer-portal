@@ -105,8 +105,8 @@ export class RadarChartComponent implements OnChanges {
         .append('path')
         .datum(data)
         .attr('d', radarLine)
-        .attr('fill', 'rgba(143,83,240,0.3)')
-        .attr('stroke', 'rgb(143,83,240)')
+        .attr('fill', '#02407950')
+        .attr('stroke', '#024079ff')
         .attr('stroke-width', 2);
     } else {
       const width = 400;
