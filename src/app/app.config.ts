@@ -26,6 +26,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 // URI
 // https://orange-mud-08c19b51e.2.azurestaticapps.net
 // https://s-customer-portal-2wz8b9i1m-jesus-garcias-projects-d5c471db.vercel.app
+// https://s-customer-portal.vercel.app
 // http://localhost:4200
 
 function MSALInstanceFactory() {
