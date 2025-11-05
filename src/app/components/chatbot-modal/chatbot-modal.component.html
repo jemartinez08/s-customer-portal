@@ -37,7 +37,7 @@
         [ngClass]="msg.sender"
       >
         <div class="message">
-          <strong>{{ msg.sender === "user" ? "Tú" : "Chatbot" }}:</strong>
+          <strong>{{ msg.sender === "user" ? "You" : "Chatbot" }}:</strong>
           <span> {{ msg.message }}</span>
           <br />
           <small class="time">{{ msg.timestamp | date : "shortTime" }}</small>

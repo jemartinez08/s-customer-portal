@@ -28,9 +28,9 @@
 
 /* Chatbot styles */
 .chat-container {
-  width: 1200px;
-  max-width: 1200px;
-  height: 600px;
+  width: 800px;
+  max-width: 800px;
+  height: 500px;
   margin: auto;
   background-color: var(--bg);
   border-radius: var(--general-radius);
