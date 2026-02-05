@@ -29,6 +29,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 // https://s-customer-portal.vercel.app
 // http://localhost:4200
 
+// new coment
 function MSALInstanceFactory() {
   return new PublicClientApplication({
     auth: {
