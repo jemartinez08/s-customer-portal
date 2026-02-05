@@ -38,7 +38,7 @@ function MSALInstanceFactory() {
       clientId: 'a6910611-37cd-4b01-bc6b-70802d75a167',
       authority:
         'https://login.microsoftonline.com/7f0478e2-05c5-419a-873b-b8cdf0069fd4',
-      redirectUri: 'https://s-customer-portal.vercel.app/home-page',
+      redirectUri: 'https://s-customer-portal.vercel.app',
     },
     cache: {
       cacheLocation: BrowserCacheLocation.LocalStorage,
