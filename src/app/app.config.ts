@@ -29,6 +29,8 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 // https://s-customer-portal.vercel.app
 // http://localhost:4200
 
+// https://d1oua0216i3dg2.cloudfront.net/index.html
+
 // new coment
 function MSALInstanceFactory() {
   return new PublicClientApplication({
@@ -36,7 +38,7 @@ function MSALInstanceFactory() {
       clientId: 'a6910611-37cd-4b01-bc6b-70802d75a167',
       authority:
         'https://login.microsoftonline.com/7f0478e2-05c5-419a-873b-b8cdf0069fd4',
-      redirectUri: 'https://s-customer-portal.vercel.app',
+      redirectUri: 'https://s-customer-portal.vercel.app/home-page',
     },
     cache: {
       cacheLocation: BrowserCacheLocation.LocalStorage,
